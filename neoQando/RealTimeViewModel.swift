@@ -20,9 +20,9 @@ class RealTimeViewModel: ObservableObject {
                 let response: RealTime = try await APIService.shared.getJSON(urlString: endPoint)
                 
                 DispatchQueue.main.async {
-                    if let data = response.data, let monitors = data.monitors {
-                        self.data = monitors
-                    }
+                    
+                    self.data = response.data.monitors
+                    
                 }
                 
             } catch {

@@ -10,9 +10,6 @@ import Foundation
 struct RealTime: Decodable {
   struct Data: Decodable {
     struct Monitor: Decodable {
-      struct Attribute: Decodable {
-      }
-
       struct Line: Decodable {
         struct Departure: Decodable {
           struct Departure: Decodable {
@@ -30,7 +27,7 @@ struct RealTime: Decodable {
 
         let barrierFree: Bool?
         let departures: Departure?
-        let direction: String?
+        let direction: String? //(‚H’ – hin oder ‚R’- retour)
         let lineId: Int?
         let name: String?
         let platform: String?
@@ -48,15 +45,8 @@ struct RealTime: Decodable {
         }
 
         struct Property: Decodable {
-          struct Attribute: Decodable {
-            let rbl: Int?
-          }
-
-          let attributes: Attribute?
-          let coordName: String?
           let municipality: String?
-          let municipalityId: Int?
-          let name: String?
+          let name: String? //diva
           let title: String?
           let type: String?
         }
@@ -66,20 +56,19 @@ struct RealTime: Decodable {
         let type: String?
       }
 
-      let attributes: Attribute?
-      let lines: [Line]?
-      let locationStop: LocationStop?
+      let lines: [Line]
+      let locationStop: LocationStop
     }
 
-    let monitors: [Monitor]?
+    let monitors: [Monitor]
   }
 
   struct Message: Decodable {
-    let messageCode: Int?
-    let serverTime: Date?
-    let value: String?
+    let messageCode: Int
+    let serverTime: Date
+    let value: String
   }
 
-  let data: Data?
-  let message: Message?
+  let data: Data
+  let message: Message
 }
