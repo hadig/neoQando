@@ -2,7 +2,7 @@
 
  Vienna public transport utility iOS App
  
- Work in progress
+ Work in progress - Feel free to contribute
  
  <img src="https://raw.githubusercontent.com/hadig/neoQando/main/Simulator%20Screen%20Shot%20-%20iPhone%2012%20-%202022-02-07%20at%2012.32.11.png" height="600" />
 
