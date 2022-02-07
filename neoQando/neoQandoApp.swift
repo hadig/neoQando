@@ -13,7 +13,7 @@ struct neoQandoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabNavigation()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
