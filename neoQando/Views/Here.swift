@@ -37,14 +37,14 @@ struct MonitorDataRow: View {
         HStack {
             VStack (alignment: .leading, spacing: 10) {
                 HStack {
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 5)
-                            .fill(Color.black)
-                            .frame(width: 40, height: 30)
-                        Text(line.name)
-                            .foregroundColor(Color.white)
-                            .bold()
-                    }
+                    Text(line.name)
+                        .bold()
+                        .padding(6)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 5)
+                                .stroke(.primary, lineWidth: 2)
+                        )
+                    
                     Text(title)
                         .bold()
                 }
