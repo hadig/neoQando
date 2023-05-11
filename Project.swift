@@ -5,14 +5,16 @@ private let infoPlist: [String: InfoPlist.Value] = [
     "CFBundleShortVersionString": "1.0",
     "CFBundleVersion": "1",
     "UIMainStoryboardFile": "",
-    "UILaunchStoryboardName": "LaunchScreen"
+    "UILaunchStoryboardName": "LaunchScreen",
+    "UISupportedInterfaceOrientations": ["UIInterfaceOrientationPortrait"]
     ]
 
 let project = Project(
     name: appName,
     organizationName: "Hadi G.",
     packages: [
-    
+        .package(path: "Packages/Network"),
+        .package(path: "Packages/Location")
     ],
     targets: [
         Target(
@@ -24,7 +26,8 @@ let project = Project(
             sources: ["App/Sources/**"],
             resources: ["App/Resources/**"],
             dependencies: [
-            
+                .package(product: "Network"),
+                .package(product: "Location")
             ]
         )
     ],
