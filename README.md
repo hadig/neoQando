@@ -1,10 +1,10 @@
-# <img src="https://raw.githubusercontent.com/hadig/neoQando/main/Icon-App%40git.png" width="80" height="80" /> &nbsp;&nbsp;&nbsp; neoQando
+# <img src="Images/Icon-App@git.png" width="80" height="80" /> &nbsp;&nbsp;&nbsp; neoQando
 
  Vienna public transport utility iOS App
  
  Work in progress - Feel free to contribute
  
- <img src="https://raw.githubusercontent.com/hadig/neoQando/main/ScreenShot.png" height="600" />
+ <img src="Images/ScreenShot.png" height="600" />
 
 Taking inspiration from Stadtfahrt, WienMobil and Qando. Starting an open-source app to be developed as a community effort.
 
