@@ -14,4 +14,4 @@ Taking inspiration from Stadtfahrt, WienMobil and Qando. Starting an open-source
 - Apple Maps + Basemap Support
 ## License
 
-[GPLv3](https://github.com/hadig/neoQando/blob/main/LICENSE)
+[Apache License v2](https://github.com/hadig/neoQando/blob/main/LICENSE)
