@@ -6,7 +6,8 @@ private let infoPlist: [String: InfoPlist.Value] = [
     "CFBundleVersion": "1",
     "UIMainStoryboardFile": "",
     "UILaunchStoryboardName": "LaunchScreen",
-    "UISupportedInterfaceOrientations": ["UIInterfaceOrientationPortrait"]
+    "UISupportedInterfaceOrientations": ["UIInterfaceOrientationPortrait"],
+    "NSLocationWhenInUseUsageDescription": "Your location will be used to find nearby stations."
     ]
 
 let project = Project(
