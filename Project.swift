@@ -10,6 +10,14 @@ private let infoPlist: [String: InfoPlist.Value] = [
     "NSLocationWhenInUseUsageDescription": "Your location will be used to find nearby stations."
     ]
 
+let testScheme = Scheme(
+    name: "Tests",
+    testAction: TestAction
+        .testPlans([
+            "App/Tests/AllTests.xctestplan"
+        ])
+)
+
 let project = Project(
     name: appName,
     organizationName: "Hadi G.",
@@ -32,7 +40,11 @@ let project = Project(
             ]
         )
     ],
+    schemes: [
+        testScheme
+    ],
     additionalFiles: [
-        "README.md"
+        "README.md",
+        "App/Tests/**"
     ]
 )

@@ -3,6 +3,7 @@ import CoreLocation
 class LocationManager: NSObject {
 
     var locationManager = CLLocationManager()
+    var location = CLLocation()
 
     override init() {
         super.init()
@@ -16,7 +17,10 @@ class LocationManager: NSObject {
 extension LocationManager: CLLocationManagerDelegate {
 
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        return
+        guard let lastLocation = locations.last else {
+            return
+        }
+        location = lastLocation
     }
 
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {

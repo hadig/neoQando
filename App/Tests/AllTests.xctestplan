@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "99381E45-4203-4BA4-A84D-691E0A1A9195",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/Location",
+        "identifier" : "LocationTests",
+        "name" : "LocationTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/Network",
+        "identifier" : "NetworkTests",
+        "name" : "NetworkTests"
+      }
+    }
+  ],
+  "version" : 1
+}
