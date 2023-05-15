@@ -2,35 +2,48 @@ import CoreLocation
 
 class LocationManager: NSObject {
 
-    var locationManager = CLLocationManager()
-    var location = CLLocation()
+    var locationFetcher: LocationFetcher
+    var currentLocation: CLLocation?
 
-    override init() {
+    init(locationFetcher: LocationFetcher = CLLocationManager()) {
+        self.locationFetcher = locationFetcher
         super.init()
-        locationManager.delegate = self
-        locationManager.allowsBackgroundLocationUpdates = false
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.activityType = .otherNavigation
+        setUp()
+    }
+
+    private func setUp() {
+        self.locationFetcher.locationFetcherDelegate = self
+        self.locationFetcher.allowsBackgroundLocationUpdates = false
+        self.locationFetcher.desiredAccuracy = kCLLocationAccuracyBest
+        self.locationFetcher.activityType = .otherNavigation
     }
 }
 
-extension LocationManager: CLLocationManagerDelegate {
+// MARK: Public methods
+extension LocationManager {
+    public func checkCurrentLocation() {
+        locationFetcher.requestLocation()
+    }
+}
 
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+// MARK: Delegate
+extension LocationManager: LocationFetcherDelegate {
+
+    func locationFetcher(_ fetcher: LocationFetcher, didUpdateLocations locations: [CLLocation]) {
         guard let lastLocation = locations.last else {
             return
         }
-        location = lastLocation
+        currentLocation = lastLocation
     }
 
-    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+    func locationFetcher(_ fetcher: LocationFetcher, didFailWithError error: Error) {
         return
     }
 
-    func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
-        switch manager.authorizationStatus {
+    func locationFetcherDidChangeAuthorization(_ fetcher: LocationFetcher) {
+        switch fetcher.authorizationStatus {
         case .notDetermined:
-            manager.requestWhenInUseAuthorization()
+            fetcher.requestWhenInUseAuthorization()
             break
 
         case .restricted, .denied:
@@ -38,7 +51,7 @@ extension LocationManager: CLLocationManagerDelegate {
 
         case .authorizedAlways, .authorizedWhenInUse:
             // we could check for the location accuracy here
-            switch manager.accuracyAuthorization {
+            switch fetcher.accuracyAuthorization {
 
             case .fullAccuracy:
                 // app would work best with full accuracy
@@ -62,5 +75,20 @@ extension LocationManager: CLLocationManagerDelegate {
         @unknown default:
             break
         }
+    }
+}
+
+extension LocationManager: CLLocationManagerDelegate {
+
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        self.locationFetcher(manager, didUpdateLocations: locations)
+    }
+
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        self.locationFetcher(manager, didFailWithError: error)
+    }
+
+    func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
+        self.locationFetcherDidChangeAuthorization(manager)
     }
 }
