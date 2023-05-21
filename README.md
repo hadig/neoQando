@@ -2,10 +2,17 @@
 
  Vienna public transport utility iOS App
  
- Work in progress - Feel free to contribute
- 
  <img src="Images/ScreenShot.png" height="600" />
 
+ ### How to build:
+```
+git clone https://github.com/hadig/neoQando.git
+```
+```
+tuist generate
+```
+
+### About:
 Taking inspiration from Stadtfahrt, WienMobil and Qando. Starting an open-source app to be developed as a community effort.
 
 <ins>Project Goals:</ins>
