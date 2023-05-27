@@ -3,59 +3,71 @@ import CoreLocation
 @testable import Location
 
 final class LocationManagerTests: XCTestCase {
-    private let floridsdorf = CLLocationCoordinate2D(latitude: 48.25656811286712,
-                                                     longitude: 16.39960820538492)
+    let floridsdorf = CLLocationCoordinate2D(latitude: 48.25656811286712,
+                                             longitude: 16.39960820538492)
+    var locationManager = LocationManager()
+
+    override func setUpWithError() throws {
+        var locationFetcher = MockLocationFetcher()
+        locationFetcher.handleRequestLocation = {
+            CLLocation(latitude: self.floridsdorf.latitude,
+                       longitude: self.floridsdorf.longitude)
+        }
+
+        locationManager = LocationManager(locationFetcher: locationFetcher)
+    }
 
     func testLocationAccuracy() throws {
-        let locationManager = LocationManager()
         XCTAssertEqual(locationManager.locationFetcher.desiredAccuracy, kCLLocationAccuracyBest)
     }
 
     func testLocationDelegateIsNotNil() throws {
-        let locationManager = LocationManager()
         XCTAssertNotNil(locationManager.locationFetcher.locationFetcherDelegate)
     }
 
     func testCurrentLocation() throws {
-        var locationFetcher = MockLocationFetcher()
-        let requestLocationExpectation = expectation(description: "request location")
-        locationFetcher.handleRequestLocation = {
-            requestLocationExpectation.fulfill()
-            return CLLocation(latitude: self.floridsdorf.latitude,
-                              longitude: self.floridsdorf.longitude)
-        }
-
-        let locationManager = LocationManager(locationFetcher: locationFetcher)
         locationManager.checkCurrentLocation()
 
         XCTAssertEqual(locationManager.currentLocation?.coordinate.latitude, floridsdorf.latitude)
         XCTAssertEqual(locationManager.currentLocation?.coordinate.longitude, floridsdorf.longitude)
-
-        wait(for: [requestLocationExpectation], timeout: 1)
     }
 
-    struct MockLocationFetcher: LocationFetcher {
+    func testLocationStops() throws {
+        XCTAssertNotNil(locationManager.locationStops)
+        XCTAssertFalse(locationManager.locationStops.isEmpty)
+    }
 
-        weak var locationFetcherDelegate: LocationFetcherDelegate?
+    func testLocationStopsNearMe() throws {
+        locationManager.checkCurrentLocation()
 
-        var allowsBackgroundLocationUpdates: Bool = false
+        let stopsNearMe = locationManager.findStopsNearMe(within: 500)
+        XCTAssertFalse(stopsNearMe.isEmpty)
+        print(stopsNearMe)
+    }
 
-        var desiredAccuracy: CLLocationAccuracy = kCLLocationAccuracyBest
+}
 
-        var activityType: CLActivityType = .otherNavigation
+struct MockLocationFetcher: LocationFetcher {
 
-        var authorizationStatus: CLAuthorizationStatus = .authorizedWhenInUse
+    weak var locationFetcherDelegate: LocationFetcherDelegate?
 
-        var accuracyAuthorization: CLAccuracyAuthorization = .fullAccuracy
+    var allowsBackgroundLocationUpdates: Bool = false
 
-        func requestWhenInUseAuthorization() {
-            return
-        }
+    var desiredAccuracy: CLLocationAccuracy = kCLLocationAccuracyBest
 
-        var handleRequestLocation: (() -> CLLocation)?
-        func requestLocation() {
-            guard let location = handleRequestLocation?() else { return }
-            locationFetcherDelegate?.locationFetcher(self, didUpdateLocations: [location])
-        }
+    var activityType: CLActivityType = .otherNavigation
+
+    var authorizationStatus: CLAuthorizationStatus = .authorizedWhenInUse
+
+    var accuracyAuthorization: CLAccuracyAuthorization = .fullAccuracy
+
+    func requestWhenInUseAuthorization() {
+        return
+    }
+
+    var handleRequestLocation: (() -> CLLocation)?
+    func requestLocation() {
+        guard let location = handleRequestLocation?() else { return }
+        locationFetcherDelegate?.locationFetcher(self, didUpdateLocations: [location])
     }
 }
