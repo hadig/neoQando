@@ -42,7 +42,7 @@ final class LocationManagerTests: XCTestCase {
 
         let stopsNearMe = locationManager.findStopsNearMe(within: 500)
         XCTAssertFalse(stopsNearMe.isEmpty)
-        print(stopsNearMe)
+        XCTAssertEqual(stopsNearMe.first?.diva, 60200334)
     }
 
 }

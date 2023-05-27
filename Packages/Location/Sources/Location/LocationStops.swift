@@ -7,13 +7,13 @@
 
 import CoreLocation
 
-struct LocationStop {
+enum LocationStop {
 
-    func parseLocationStops() -> [Stop] {
+    static func parseLocationStops() -> [Stop] {
         parseJSON(from: getJSON())
     }
 
-    private func getJSON() -> Data? {
+    private static func getJSON() -> Data? {
         guard let path = Bundle.module.url(forResource: "haltepunkte", withExtension: "json") else {
             return nil
         }
@@ -24,10 +24,11 @@ struct LocationStop {
         } catch {
             print("💥 Boom: \(error)")
         }
+        
         return nil
     }
 
-    private func parseJSON(from data: Data?) -> [Stop] {
+    private static func parseJSON(from data: Data?) -> [Stop] {
         guard let data else {
             print("💥 Boom: Input data is empty!")
             return []
@@ -61,5 +62,11 @@ struct Stop: Decodable {
         case municipalityId = "MunicipalityID"
         case longitude = "Longitude"
         case latitude = "Latitude"
+    }
+}
+
+extension Stop {
+    var location: CLLocation {
+        CLLocation(latitude: latitude, longitude: longitude)
     }
 }

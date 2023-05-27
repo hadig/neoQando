@@ -8,7 +8,7 @@ class LocationManager: NSObject {
 
     init(locationFetcher: LocationFetcher = CLLocationManager()) {
         self.locationFetcher = locationFetcher
-        self.locationStops = LocationStop().parseLocationStops()
+        self.locationStops = LocationStop.parseLocationStops()
         super.init()
         setUp()
     }
@@ -35,12 +35,16 @@ extension LocationManager {
 
         var stopsNearMe: [Stop] = []
         for stop in locationStops {
-            let distanceToStop = currentLocation.distance(from: CLLocation(latitude: stop.latitude,
-                                                                           longitude: stop.longitude))
+            let distanceToStop = currentLocation.distance(from: stop.location)
             if distanceToStop.isLessThanOrEqualTo(distance) {
                 stopsNearMe.append(stop)
             }
         }
+
+        stopsNearMe.sort {
+            currentLocation.distance(from: $0.location) < currentLocation.distance(from: $1.location)
+        }
+        
         return stopsNearMe
     }
 
