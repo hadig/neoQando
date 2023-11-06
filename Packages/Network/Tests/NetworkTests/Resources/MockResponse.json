@@ -1,0 +1,3266 @@
+//
+//  MockData.json
+//  
+//
+//  Created by Hadi G. on 28.05.23.
+//
+
+{
+  "data": {
+    "monitors": [
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.3996347,
+              48.2573999
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "E",
+            "attributes": {
+              "rbl": 2172
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "2",
+            "towards": "Floridsdorfer Markt, Betriebsbhf. Floridsdorf",
+            "direction": "H",
+            "platform": "1",
+            "richtungsId": "1",
+            "barrierFree": false,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:15:00.000+0100",
+                    "timeReal": "2022-02-04T19:15:00.000+0100",
+                    "countdown": 66
+                  }
+                }
+              ]
+            },
+            "type": "ptTram",
+            "lineId": 102
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.4003938,
+              48.2574216
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "A",
+            "attributes": {
+              "rbl": 2345
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "25",
+            "towards": "Floridsdorf S U",
+            "direction": "H",
+            "platform": "1",
+            "richtungsId": "1",
+            "barrierFree": true,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:12:00.000+0100",
+                    "timeReal": "2022-02-04T18:11:36.000+0100",
+                    "countdown": 2
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:18:00.000+0100",
+                    "timeReal": "2022-02-04T18:17:10.000+0100",
+                    "countdown": 8
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:24:00.000+0100",
+                    "timeReal": "2022-02-04T18:23:33.000+0100",
+                    "countdown": 14
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Floridsdorf S U",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:31:30.000+0100",
+                    "timeReal": "2022-02-04T18:32:42.000+0100",
+                    "countdown": 23
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Floridsdorf S U",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:46:30.000+0100",
+                    "timeReal": "2022-02-04T18:46:30.000+0100",
+                    "countdown": 37
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:54:00.000+0100",
+                    "timeReal": "2022-02-04T18:54:00.000+0100",
+                    "countdown": 45
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Floridsdorf S U",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:01:30.000+0100",
+                    "timeReal": "2022-02-04T19:01:30.000+0100",
+                    "countdown": 52
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:09:00.000+0100",
+                    "timeReal": "2022-02-04T19:09:00.000+0100",
+                    "countdown": 60
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:16:30.000+0100",
+                    "timeReal": "2022-02-04T19:16:30.000+0100",
+                    "countdown": 67
+                  }
+                }
+              ]
+            },
+            "type": "ptTram",
+            "lineId": 125
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.3991325,
+              48.2567647
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "F",
+            "attributes": {
+              "rbl": 2189
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "25",
+            "towards": "Floridsdorf S U",
+            "direction": "H",
+            "platform": "1",
+            "richtungsId": "1",
+            "barrierFree": true,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:13:00.000+0100",
+                    "timeReal": "2022-02-04T18:12:27.000+0100",
+                    "countdown": 3
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:19:00.000+0100",
+                    "timeReal": "2022-02-04T18:18:09.000+0100",
+                    "countdown": 9
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:25:00.000+0100",
+                    "timeReal": "2022-02-04T18:24:59.000+0100",
+                    "countdown": 16
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Floridsdorf S U",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:32:30.000+0100",
+                    "timeReal": "2022-02-04T18:32:58.000+0100",
+                    "countdown": 24
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Floridsdorf S U",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:47:30.000+0100",
+                    "timeReal": "2022-02-04T18:47:30.000+0100",
+                    "countdown": 38
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:55:00.000+0100",
+                    "timeReal": "2022-02-04T18:55:00.000+0100",
+                    "countdown": 46
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Floridsdorf S U",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:02:30.000+0100",
+                    "timeReal": "2022-02-04T19:02:30.000+0100",
+                    "countdown": 53
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:10:00.000+0100",
+                    "timeReal": "2022-02-04T19:10:00.000+0100",
+                    "countdown": 61
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:17:30.000+0100",
+                    "timeReal": "2022-02-04T19:17:30.000+0100",
+                    "countdown": 68
+                  }
+                }
+              ]
+            },
+            "type": "ptTram",
+            "lineId": 125
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.3997094,
+              48.2573591
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "D",
+            "attributes": {
+              "rbl": 2359
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "25",
+            "towards": "Aspern",
+            "direction": "R",
+            "platform": "2",
+            "richtungsId": "2",
+            "barrierFree": false,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:09:00.000+0100",
+                    "timeReal": "2022-02-04T18:08:45.000+0100",
+                    "countdown": 0
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:16:30.000+0100",
+                    "timeReal": "2022-02-04T18:16:30.000+0100",
+                    "countdown": 7
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:24:00.000+0100",
+                    "timeReal": "2022-02-04T18:24:00.000+0100",
+                    "countdown": 15
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Aspern",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:31:30.000+0100",
+                    "timeReal": "2022-02-04T18:31:30.000+0100",
+                    "countdown": 22
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Aspern",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:33:30.000+0100",
+                    "timeReal": "2022-02-04T18:33:30.000+0100",
+                    "countdown": 24
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Kagran U",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:39:00.000+0100",
+                    "timeReal": "2022-02-04T18:39:00.000+0100",
+                    "countdown": 30
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:46:30.000+0100",
+                    "timeReal": "2022-02-04T18:46:30.000+0100",
+                    "countdown": 37
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:54:00.000+0100",
+                    "timeReal": "2022-02-04T18:54:00.000+0100",
+                    "countdown": 45
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Aspern",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:01:30.000+0100",
+                    "timeReal": "2022-02-04T19:01:30.000+0100",
+                    "countdown": 52
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:09:00.000+0100",
+                    "timeReal": "2022-02-04T19:09:00.000+0100",
+                    "countdown": 60
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Aspern",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:16:30.000+0100",
+                    "timeReal": "2022-02-04T19:16:30.000+0100",
+                    "countdown": 67
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Aspern",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                }
+              ]
+            },
+            "type": "ptTram",
+            "lineId": 125
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.4011947,
+              48.2570136
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "B",
+            "attributes": {
+              "rbl": 2343
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "25",
+            "towards": "Aspern",
+            "direction": "R",
+            "platform": "2",
+            "richtungsId": "2",
+            "barrierFree": false,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:10:00.000+0100",
+                    "timeReal": "2022-02-04T18:10:01.000+0100",
+                    "countdown": 1
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:17:30.000+0100",
+                    "timeReal": "2022-02-04T18:17:30.000+0100",
+                    "countdown": 8
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:25:00.000+0100",
+                    "timeReal": "2022-02-04T18:25:00.000+0100",
+                    "countdown": 16
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Aspern",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:32:30.000+0100",
+                    "timeReal": "2022-02-04T18:32:30.000+0100",
+                    "countdown": 23
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Aspern",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:34:30.000+0100",
+                    "timeReal": "2022-02-04T18:34:30.000+0100",
+                    "countdown": 25
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Kagran U",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:40:00.000+0100",
+                    "timeReal": "2022-02-04T18:40:00.000+0100",
+                    "countdown": 31
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:47:30.000+0100",
+                    "timeReal": "2022-02-04T18:47:30.000+0100",
+                    "countdown": 38
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:55:00.000+0100",
+                    "timeReal": "2022-02-04T18:55:00.000+0100",
+                    "countdown": 46
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Aspern",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:02:30.000+0100",
+                    "timeReal": "2022-02-04T19:02:30.000+0100",
+                    "countdown": 53
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:10:00.000+0100",
+                    "timeReal": "2022-02-04T19:10:00.000+0100",
+                    "countdown": 61
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Aspern",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:17:30.000+0100",
+                    "timeReal": "2022-02-04T19:17:30.000+0100",
+                    "countdown": 68
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Aspern",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                }
+              ]
+            },
+            "type": "ptTram",
+            "lineId": 125
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.399053,
+              48.2556475
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Franz-Jonas-Platz ",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "attributes": {
+              "rbl": 2228
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "25",
+            "towards": "Aspern",
+            "direction": "R",
+            "platform": "2",
+            "richtungsId": "2",
+            "barrierFree": false,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:15:00.000+0100",
+                    "timeReal": "2022-02-04T18:15:00.000+0100",
+                    "countdown": 6
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:22:30.000+0100",
+                    "timeReal": "2022-02-04T18:22:30.000+0100",
+                    "countdown": 13
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Aspern",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:30:00.000+0100",
+                    "timeReal": "2022-02-04T18:30:00.000+0100",
+                    "countdown": 21
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Aspern",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:32:00.000+0100",
+                    "timeReal": "2022-02-04T18:32:00.000+0100",
+                    "countdown": 23
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Kagran U",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:37:30.000+0100",
+                    "timeReal": "2022-02-04T18:37:30.000+0100",
+                    "countdown": 28
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:45:00.000+0100",
+                    "timeReal": "2022-02-04T18:45:00.000+0100",
+                    "countdown": 36
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:52:30.000+0100",
+                    "timeReal": "2022-02-04T18:52:30.000+0100",
+                    "countdown": 43
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Aspern",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:00:30.000+0100",
+                    "timeReal": "2022-02-04T19:00:30.000+0100",
+                    "countdown": 51
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:08:00.000+0100",
+                    "timeReal": "2022-02-04T19:08:00.000+0100",
+                    "countdown": 59
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Aspern",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:15:30.000+0100",
+                    "timeReal": "2022-02-04T19:15:30.000+0100",
+                    "countdown": 66
+                  },
+                  "vehicle": {
+                    "name": "25",
+                    "towards": "Aspern",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 125
+                  }
+                }
+              ]
+            },
+            "type": "ptTram",
+            "lineId": 125
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.4003938,
+              48.2574216
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "A",
+            "attributes": {
+              "rbl": 2345
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "26",
+            "towards": "Strebersdorf",
+            "direction": "H",
+            "platform": "1",
+            "richtungsId": "1",
+            "barrierFree": true,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:09:00.000+0100",
+                    "timeReal": "2022-02-04T18:10:12.000+0100",
+                    "countdown": 1
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:15:00.000+0100",
+                    "timeReal": "2022-02-04T18:14:36.000+0100",
+                    "countdown": 5
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:21:00.000+0100",
+                    "timeReal": "2022-02-04T18:19:34.000+0100",
+                    "countdown": 10
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:28:00.000+0100",
+                    "timeReal": "2022-02-04T18:28:24.000+0100",
+                    "countdown": 19
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:35:30.000+0100",
+                    "timeReal": "2022-02-04T18:35:30.000+0100",
+                    "countdown": 26
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:43:00.000+0100",
+                    "timeReal": "2022-02-04T18:43:00.000+0100",
+                    "countdown": 34
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:50:30.000+0100",
+                    "timeReal": "2022-02-04T18:50:30.000+0100",
+                    "countdown": 41
+                  },
+                  "vehicle": {
+                    "name": "26",
+                    "towards": "Strebersdorf",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 126
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:58:00.000+0100",
+                    "timeReal": "2022-02-04T18:58:00.000+0100",
+                    "countdown": 49
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:05:30.000+0100",
+                    "timeReal": "2022-02-04T19:05:30.000+0100",
+                    "countdown": 56
+                  },
+                  "vehicle": {
+                    "name": "26",
+                    "towards": "Strebersdorf",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 126
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:13:00.000+0100",
+                    "timeReal": "2022-02-04T19:13:00.000+0100",
+                    "countdown": 64
+                  }
+                }
+              ]
+            },
+            "type": "ptTram",
+            "lineId": 126
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.4011947,
+              48.2570136
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "B",
+            "attributes": {
+              "rbl": 2343
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "26",
+            "towards": "Hausfeldstraße U",
+            "direction": "R",
+            "platform": "2",
+            "richtungsId": "2",
+            "barrierFree": true,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:14:00.000+0100",
+                    "timeReal": "2022-02-04T18:14:26.000+0100",
+                    "countdown": 5
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:21:30.000+0100",
+                    "timeReal": "2022-02-04T18:21:14.000+0100",
+                    "countdown": 12
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:29:00.000+0100",
+                    "timeReal": "2022-02-04T18:29:00.000+0100",
+                    "countdown": 20
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:30:00.000+0100",
+                    "timeReal": "2022-02-04T18:30:00.000+0100",
+                    "countdown": 21
+                  },
+                  "vehicle": {
+                    "name": "26",
+                    "towards": "Kagran U",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 126
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:36:30.000+0100",
+                    "timeReal": "2022-02-04T18:36:30.000+0100",
+                    "countdown": 27
+                  },
+                  "vehicle": {
+                    "name": "26",
+                    "towards": "Hausfeldstraße U",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 126
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:44:00.000+0100",
+                    "timeReal": "2022-02-04T18:44:00.000+0100",
+                    "countdown": 35
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:51:30.000+0100",
+                    "timeReal": "2022-02-04T18:51:30.000+0100",
+                    "countdown": 42
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:59:00.000+0100",
+                    "timeReal": "2022-02-04T18:59:00.000+0100",
+                    "countdown": 50
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:06:30.000+0100",
+                    "timeReal": "2022-02-04T19:06:30.000+0100",
+                    "countdown": 57
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:14:00.000+0100",
+                    "timeReal": "2022-02-04T19:14:00.000+0100",
+                    "countdown": 65
+                  }
+                }
+              ]
+            },
+            "type": "ptTram",
+            "lineId": 126
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.4006988,
+              48.2562352
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "C",
+            "attributes": {
+              "rbl": 1120
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "28A",
+            "towards": "Aderklaaer Straße U",
+            "direction": "H",
+            "platform": "1",
+            "richtungsId": "1",
+            "barrierFree": true,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:11:30.000+0100",
+                    "timeReal": "2022-02-04T18:11:30.000+0100",
+                    "countdown": 2
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:26:30.000+0100",
+                    "timeReal": "2022-02-04T18:26:30.000+0100",
+                    "countdown": 17
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:41:30.000+0100",
+                    "timeReal": "2022-02-04T18:41:30.000+0100",
+                    "countdown": 32
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:56:30.000+0100",
+                    "timeReal": "2022-02-04T18:56:30.000+0100",
+                    "countdown": 47
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:11:30.000+0100",
+                    "timeReal": "2022-02-04T19:11:30.000+0100",
+                    "countdown": 62
+                  }
+                }
+              ]
+            },
+            "type": "ptBusCity",
+            "lineId": 428
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.3992913,
+              48.2571163
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "G",
+            "attributes": {
+              "rbl": 1125
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "28A",
+            "towards": "Aderklaaer Straße U",
+            "direction": "H",
+            "platform": "1",
+            "richtungsId": "1",
+            "barrierFree": true,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:13:30.000+0100",
+                    "timeReal": "2022-02-04T18:13:30.000+0100",
+                    "countdown": 4
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:28:30.000+0100",
+                    "timeReal": "2022-02-04T18:28:30.000+0100",
+                    "countdown": 19
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:43:30.000+0100",
+                    "timeReal": "2022-02-04T18:43:30.000+0100",
+                    "countdown": 34
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:58:30.000+0100",
+                    "timeReal": "2022-02-04T18:58:30.000+0100",
+                    "countdown": 49
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:13:30.000+0100",
+                    "timeReal": "2022-02-04T19:13:30.000+0100",
+                    "countdown": 64
+                  }
+                }
+              ]
+            },
+            "type": "ptBusCity",
+            "lineId": 428
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.4011947,
+              48.2570136
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "B",
+            "attributes": {
+              "rbl": 2343
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "28A",
+            "towards": "Aderklaaer Straße U",
+            "direction": "H",
+            "platform": "1",
+            "richtungsId": "1",
+            "barrierFree": true,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:15:00.000+0100",
+                    "timeReal": "2022-02-04T18:15:00.000+0100",
+                    "countdown": 6
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:30:00.000+0100",
+                    "timeReal": "2022-02-04T18:30:00.000+0100",
+                    "countdown": 21
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:45:00.000+0100",
+                    "timeReal": "2022-02-04T18:45:00.000+0100",
+                    "countdown": 36
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:00:00.000+0100",
+                    "timeReal": "2022-02-04T19:00:00.000+0100",
+                    "countdown": 51
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:15:00.000+0100",
+                    "timeReal": "2022-02-04T19:15:00.000+0100",
+                    "countdown": 66
+                  }
+                }
+              ]
+            },
+            "type": "ptBusCity",
+            "lineId": 428
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.4006988,
+              48.2562352
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "C",
+            "attributes": {
+              "rbl": 1120
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "29A",
+            "towards": "Großfeldsiedlung U",
+            "direction": "H",
+            "platform": "1",
+            "richtungsId": "1",
+            "barrierFree": true,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:10:00.000+0100",
+                    "timeReal": "2022-02-04T18:10:00.000+0100",
+                    "countdown": 1
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:16:40.000+0100",
+                    "timeReal": "2022-02-04T18:16:40.000+0100",
+                    "countdown": 7
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:23:20.000+0100",
+                    "timeReal": "2022-02-04T18:23:20.000+0100",
+                    "countdown": 14
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:30:00.000+0100",
+                    "timeReal": "2022-02-04T18:30:00.000+0100",
+                    "countdown": 21
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:37:30.000+0100",
+                    "timeReal": "2022-02-04T18:37:30.000+0100",
+                    "countdown": 28
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:45:00.000+0100",
+                    "timeReal": "2022-02-04T18:45:00.000+0100",
+                    "countdown": 36
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:52:30.000+0100",
+                    "timeReal": "2022-02-04T18:52:30.000+0100",
+                    "countdown": 43
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:00:00.000+0100",
+                    "timeReal": "2022-02-04T19:00:00.000+0100",
+                    "countdown": 51
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:07:30.000+0100",
+                    "timeReal": "2022-02-04T19:07:30.000+0100",
+                    "countdown": 58
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:15:00.000+0100",
+                    "timeReal": "2022-02-04T19:15:00.000+0100",
+                    "countdown": 66
+                  }
+                }
+              ]
+            },
+            "type": "ptBusCity",
+            "lineId": 429
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.3992913,
+              48.2571163
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "G",
+            "attributes": {
+              "rbl": 1125
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "29A",
+            "towards": "Großfeldsiedlung U",
+            "direction": "H",
+            "platform": "1",
+            "richtungsId": "1",
+            "barrierFree": true,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:12:00.000+0100",
+                    "timeReal": "2022-02-04T18:12:00.000+0100",
+                    "countdown": 3
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:18:40.000+0100",
+                    "timeReal": "2022-02-04T18:18:40.000+0100",
+                    "countdown": 9
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:25:20.000+0100",
+                    "timeReal": "2022-02-04T18:25:20.000+0100",
+                    "countdown": 16
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:32:00.000+0100",
+                    "timeReal": "2022-02-04T18:32:00.000+0100",
+                    "countdown": 23
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:39:30.000+0100",
+                    "timeReal": "2022-02-04T18:39:30.000+0100",
+                    "countdown": 30
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:47:00.000+0100",
+                    "timeReal": "2022-02-04T18:47:00.000+0100",
+                    "countdown": 38
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:54:30.000+0100",
+                    "timeReal": "2022-02-04T18:54:30.000+0100",
+                    "countdown": 45
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:02:00.000+0100",
+                    "timeReal": "2022-02-04T19:02:00.000+0100",
+                    "countdown": 53
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:09:30.000+0100",
+                    "timeReal": "2022-02-04T19:09:30.000+0100",
+                    "countdown": 60
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:17:00.000+0100",
+                    "timeReal": "2022-02-04T19:17:00.000+0100",
+                    "countdown": 68
+                  }
+                }
+              ]
+            },
+            "type": "ptBusCity",
+            "lineId": 429
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.4011947,
+              48.2570136
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "B",
+            "attributes": {
+              "rbl": 2343
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "29A",
+            "towards": "Großfeldsiedlung U",
+            "direction": "H",
+            "platform": "1",
+            "richtungsId": "1",
+            "barrierFree": true,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:13:30.000+0100",
+                    "timeReal": "2022-02-04T18:13:30.000+0100",
+                    "countdown": 4
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:20:10.000+0100",
+                    "timeReal": "2022-02-04T18:20:10.000+0100",
+                    "countdown": 11
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:26:50.000+0100",
+                    "timeReal": "2022-02-04T18:26:50.000+0100",
+                    "countdown": 17
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:33:30.000+0100",
+                    "timeReal": "2022-02-04T18:33:30.000+0100",
+                    "countdown": 24
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:41:00.000+0100",
+                    "timeReal": "2022-02-04T18:41:00.000+0100",
+                    "countdown": 32
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:48:30.000+0100",
+                    "timeReal": "2022-02-04T18:48:30.000+0100",
+                    "countdown": 39
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:56:00.000+0100",
+                    "timeReal": "2022-02-04T18:56:00.000+0100",
+                    "countdown": 47
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:03:30.000+0100",
+                    "timeReal": "2022-02-04T19:03:30.000+0100",
+                    "countdown": 54
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:11:00.000+0100",
+                    "timeReal": "2022-02-04T19:11:00.000+0100",
+                    "countdown": 62
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:18:30.000+0100",
+                    "countdown": 69
+                  }
+                }
+              ]
+            },
+            "type": "ptBusCity",
+            "lineId": 429
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.399053,
+              48.2556475
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Franz-Jonas-Platz ",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "attributes": {
+              "rbl": 2228
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "30",
+            "towards": "Stammersdorf",
+            "direction": "H",
+            "platform": "1",
+            "richtungsId": "1",
+            "barrierFree": false,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:11:30.000+0100",
+                    "timeReal": "2022-02-04T18:11:30.000+0100",
+                    "countdown": 2
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:17:30.000+0100",
+                    "timeReal": "2022-02-04T18:17:30.000+0100",
+                    "countdown": 8
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:23:30.000+0100",
+                    "timeReal": "2022-02-04T18:23:30.000+0100",
+                    "countdown": 14
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:29:30.000+0100",
+                    "timeReal": "2022-02-04T18:29:30.000+0100",
+                    "countdown": 20
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:35:30.000+0100",
+                    "timeReal": "2022-02-04T18:35:30.000+0100",
+                    "countdown": 26
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:41:30.000+0100",
+                    "timeReal": "2022-02-04T18:41:30.000+0100",
+                    "countdown": 32
+                  },
+                  "vehicle": {
+                    "name": "30",
+                    "towards": "Stammersdorf",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 130
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:47:30.000+0100",
+                    "timeReal": "2022-02-04T18:47:30.000+0100",
+                    "countdown": 38
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:53:30.000+0100",
+                    "timeReal": "2022-02-04T18:53:30.000+0100",
+                    "countdown": 44
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:59:30.000+0100",
+                    "timeReal": "2022-02-04T18:59:30.000+0100",
+                    "countdown": 50
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:05:00.000+0100",
+                    "timeReal": "2022-02-04T19:05:00.000+0100",
+                    "countdown": 56
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:11:00.000+0100",
+                    "timeReal": "2022-02-04T19:11:00.000+0100",
+                    "countdown": 62
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:17:30.000+0100",
+                    "timeReal": "2022-02-04T19:17:30.000+0100",
+                    "countdown": 68
+                  }
+                }
+              ]
+            },
+            "type": "ptTram",
+            "lineId": 130
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.3996347,
+              48.2573999
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "E",
+            "attributes": {
+              "rbl": 2172
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "30",
+            "towards": "Stammersdorf",
+            "direction": "H",
+            "platform": "1",
+            "richtungsId": "1",
+            "barrierFree": false,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:12:30.000+0100",
+                    "timeReal": "2022-02-04T18:12:30.000+0100",
+                    "countdown": 3
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:18:30.000+0100",
+                    "timeReal": "2022-02-04T18:18:30.000+0100",
+                    "countdown": 9
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:24:30.000+0100",
+                    "timeReal": "2022-02-04T18:24:30.000+0100",
+                    "countdown": 15
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:30:30.000+0100",
+                    "timeReal": "2022-02-04T18:30:30.000+0100",
+                    "countdown": 21
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:36:30.000+0100",
+                    "timeReal": "2022-02-04T18:36:30.000+0100",
+                    "countdown": 27
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:42:30.000+0100",
+                    "timeReal": "2022-02-04T18:42:30.000+0100",
+                    "countdown": 33
+                  },
+                  "vehicle": {
+                    "name": "30",
+                    "towards": "Stammersdorf",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 130
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:48:30.000+0100",
+                    "timeReal": "2022-02-04T18:48:30.000+0100",
+                    "countdown": 39
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:54:30.000+0100",
+                    "timeReal": "2022-02-04T18:54:30.000+0100",
+                    "countdown": 45
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:00:30.000+0100",
+                    "timeReal": "2022-02-04T19:00:30.000+0100",
+                    "countdown": 51
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:06:00.000+0100",
+                    "timeReal": "2022-02-04T19:06:00.000+0100",
+                    "countdown": 57
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:12:00.000+0100",
+                    "timeReal": "2022-02-04T19:12:00.000+0100",
+                    "countdown": 63
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:18:30.000+0100",
+                    "timeReal": "2022-02-04T19:18:30.000+0100",
+                    "countdown": 69
+                  }
+                }
+              ]
+            },
+            "type": "ptTram",
+            "lineId": 130
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.3991325,
+              48.2567647
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "F",
+            "attributes": {
+              "rbl": 2189
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "30",
+            "towards": "Floridsdorf S U",
+            "direction": "R",
+            "platform": "2",
+            "richtungsId": "2",
+            "barrierFree": false,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:11:00.000+0100",
+                    "timeReal": "2022-02-04T18:10:23.000+0100",
+                    "countdown": 1
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:17:00.000+0100",
+                    "timeReal": "2022-02-04T18:16:58.000+0100",
+                    "countdown": 8
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:23:00.000+0100",
+                    "timeReal": "2022-02-04T18:22:50.000+0100",
+                    "countdown": 13
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:29:00.000+0100",
+                    "timeReal": "2022-02-04T18:29:00.000+0100",
+                    "countdown": 20
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:35:00.000+0100",
+                    "timeReal": "2022-02-04T18:35:00.000+0100",
+                    "countdown": 26
+                  },
+                  "vehicle": {
+                    "name": "30",
+                    "towards": "Floridsdorf S U",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 130
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:41:00.000+0100",
+                    "timeReal": "2022-02-04T18:41:00.000+0100",
+                    "countdown": 32
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:47:00.000+0100",
+                    "timeReal": "2022-02-04T18:47:00.000+0100",
+                    "countdown": 38
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:53:30.000+0100",
+                    "timeReal": "2022-02-04T18:53:30.000+0100",
+                    "countdown": 44
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:59:30.000+0100",
+                    "timeReal": "2022-02-04T18:59:30.000+0100",
+                    "countdown": 50
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:05:30.000+0100",
+                    "timeReal": "2022-02-04T19:05:30.000+0100",
+                    "countdown": 56
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:11:30.000+0100",
+                    "timeReal": "2022-02-04T19:11:30.000+0100",
+                    "countdown": 62
+                  }
+                }
+              ]
+            },
+            "type": "ptTram",
+            "lineId": 130
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.3996347,
+              48.2573999
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "E",
+            "attributes": {
+              "rbl": 2172
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "31",
+            "towards": "Stammersdorf",
+            "direction": "H",
+            "platform": "1",
+            "richtungsId": "1",
+            "barrierFree": true,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:09:30.000+0100",
+                    "timeReal": "2022-02-04T18:09:26.000+0100",
+                    "countdown": 0
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:15:30.000+0100",
+                    "timeReal": "2022-02-04T18:15:38.000+0100",
+                    "countdown": 6
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:21:30.000+0100",
+                    "timeReal": "2022-02-04T18:23:21.000+0100",
+                    "countdown": 14
+                  },
+                  "vehicle": {
+                    "name": "31",
+                    "towards": "Stammersdorf",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 131
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:27:30.000+0100",
+                    "timeReal": "2022-02-04T18:27:11.000+0100",
+                    "countdown": 18
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:33:30.000+0100",
+                    "timeReal": "2022-02-04T18:33:30.000+0100",
+                    "countdown": 24
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:39:30.000+0100",
+                    "timeReal": "2022-02-04T18:39:30.000+0100",
+                    "countdown": 30
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:45:30.000+0100",
+                    "timeReal": "2022-02-04T18:45:30.000+0100",
+                    "countdown": 36
+                  },
+                  "vehicle": {
+                    "name": "31",
+                    "towards": "Stammersdorf",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 131
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:51:30.000+0100",
+                    "timeReal": "2022-02-04T18:51:30.000+0100",
+                    "countdown": 42
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:57:30.000+0100",
+                    "timeReal": "2022-02-04T18:57:30.000+0100",
+                    "countdown": 48
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:03:30.000+0100",
+                    "timeReal": "2022-02-04T19:03:30.000+0100",
+                    "countdown": 54
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:09:30.000+0100",
+                    "timeReal": "2022-02-04T19:09:30.000+0100",
+                    "countdown": 60
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:15:30.000+0100",
+                    "timeReal": "2022-02-04T19:15:30.000+0100",
+                    "countdown": 66
+                  },
+                  "vehicle": {
+                    "name": "31",
+                    "towards": "Stammersdorf",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 131
+                  }
+                }
+              ]
+            },
+            "type": "ptTram",
+            "lineId": 131
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.3991325,
+              48.2567647
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "F",
+            "attributes": {
+              "rbl": 2189
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "31",
+            "towards": "Schottenring U",
+            "direction": "R",
+            "platform": "2",
+            "richtungsId": "2",
+            "barrierFree": true,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:14:00.000+0100",
+                    "timeReal": "2022-02-04T18:14:52.000+0100",
+                    "countdown": 5
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:20:00.000+0100",
+                    "timeReal": "2022-02-04T18:20:15.000+0100",
+                    "countdown": 11
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:26:00.000+0100",
+                    "timeReal": "2022-02-04T18:26:00.000+0100",
+                    "countdown": 17
+                  },
+                  "vehicle": {
+                    "name": "31",
+                    "towards": "Schottenring U",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 131
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:32:00.000+0100",
+                    "timeReal": "2022-02-04T18:32:00.000+0100",
+                    "countdown": 23
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:38:00.000+0100",
+                    "timeReal": "2022-02-04T18:38:00.000+0100",
+                    "countdown": 29
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:44:00.000+0100",
+                    "timeReal": "2022-02-04T18:44:00.000+0100",
+                    "countdown": 35
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:50:00.000+0100",
+                    "timeReal": "2022-02-04T18:50:00.000+0100",
+                    "countdown": 41
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:56:00.000+0100",
+                    "timeReal": "2022-02-04T18:56:00.000+0100",
+                    "countdown": 47
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:02:00.000+0100",
+                    "timeReal": "2022-02-04T19:02:00.000+0100",
+                    "countdown": 53
+                  },
+                  "vehicle": {
+                    "name": "31",
+                    "towards": "Schottenring U",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptTram",
+                    "attributes": {},
+                    "linienId": 131
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:08:00.000+0100",
+                    "timeReal": "2022-02-04T19:08:00.000+0100",
+                    "countdown": 59
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:15:00.000+0100",
+                    "timeReal": "2022-02-04T19:15:00.000+0100",
+                    "countdown": 66
+                  }
+                }
+              ]
+            },
+            "type": "ptTram",
+            "lineId": 131
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.4011947,
+              48.2570136
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "B",
+            "attributes": {
+              "rbl": 2343
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "33A",
+            "towards": "Floridsdorf S U",
+            "direction": "H",
+            "platform": "1",
+            "richtungsId": "1",
+            "barrierFree": true,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:15:00.000+0100",
+                    "timeReal": "2022-02-04T18:15:16.000+0100",
+                    "countdown": 6
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:35:00.000+0100",
+                    "timeReal": "2022-02-04T18:35:00.000+0100",
+                    "countdown": 26
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:55:00.000+0100",
+                    "timeReal": "2022-02-04T18:55:00.000+0100",
+                    "countdown": 46
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:15:00.000+0100",
+                    "timeReal": "2022-02-04T19:15:00.000+0100",
+                    "countdown": 66
+                  }
+                }
+              ]
+            },
+            "type": "ptBusCity",
+            "lineId": 433
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.40094,
+              48.2564869
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf <>",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "attributes": {
+              "rbl": 5070
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "33A",
+            "towards": "Mühlschüttel",
+            "direction": "R",
+            "platform": "2",
+            "richtungsId": "2",
+            "barrierFree": true,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:20:00.000+0100",
+                    "timeReal": "2022-02-04T18:20:00.000+0100",
+                    "countdown": 11
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:40:00.000+0100",
+                    "timeReal": "2022-02-04T18:40:00.000+0100",
+                    "countdown": 31
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:00:00.000+0100",
+                    "timeReal": "2022-02-04T19:00:00.000+0100",
+                    "countdown": 51
+                  }
+                }
+              ]
+            },
+            "type": "ptBusCity",
+            "lineId": 433
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.399025,
+              48.256993
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf S U",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "J",
+            "attributes": {
+              "rbl": 5737
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "34A",
+            "towards": "Jedlesee, Überfuhrstraße",
+            "direction": "H",
+            "platform": "1",
+            "richtungsId": "1",
+            "barrierFree": true,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:12:00.000+0100",
+                    "countdown": 3
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:17:00.000+0100",
+                    "countdown": 8
+                  },
+                  "vehicle": {
+                    "name": "34A",
+                    "towards": "Strebersdorf S",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptBusCity",
+                    "attributes": {},
+                    "linienId": 434
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:22:00.000+0100",
+                    "countdown": 13
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:27:00.000+0100",
+                    "countdown": 18
+                  },
+                  "vehicle": {
+                    "name": "34A",
+                    "towards": "Strebersdorf S",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptBusCity",
+                    "attributes": {},
+                    "linienId": 434
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:32:00.000+0100",
+                    "countdown": 23
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:37:00.000+0100",
+                    "countdown": 28
+                  },
+                  "vehicle": {
+                    "name": "34A",
+                    "towards": "Strebersdorf S",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptBusCity",
+                    "attributes": {},
+                    "linienId": 434
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:42:00.000+0100",
+                    "countdown": 33
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:47:00.000+0100",
+                    "countdown": 38
+                  },
+                  "vehicle": {
+                    "name": "34A",
+                    "towards": "Strebersdorf S",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptBusCity",
+                    "attributes": {},
+                    "linienId": 434
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:52:00.000+0100",
+                    "countdown": 43
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:57:00.000+0100",
+                    "countdown": 48
+                  },
+                  "vehicle": {
+                    "name": "34A",
+                    "towards": "Strebersdorf S",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptBusCity",
+                    "attributes": {},
+                    "linienId": 434
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:02:00.000+0100",
+                    "countdown": 53
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:07:00.000+0100",
+                    "countdown": 58
+                  },
+                  "vehicle": {
+                    "name": "34A",
+                    "towards": "Strebersdorf S",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptBusCity",
+                    "attributes": {},
+                    "linienId": 434
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:13:30.000+0100",
+                    "countdown": 64
+                  }
+                }
+              ]
+            },
+            "type": "ptBusCity",
+            "lineId": 434
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.4004069,
+              48.25622
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "2",
+            "attributes": {
+              "rbl": 4646
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "U6",
+            "towards": "SIEBENHIRTEN",
+            "direction": "R",
+            "platform": "2",
+            "richtungsId": "2",
+            "barrierFree": true,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:10:43.000+0100",
+                    "timeReal": "2022-02-04T18:10:43.000+0100",
+                    "countdown": 2
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:14:43.000+0100",
+                    "timeReal": "2022-02-04T18:14:43.000+0100",
+                    "countdown": 6
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:16:40.000+0100",
+                    "countdown": 7
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:20:00.000+0100",
+                    "countdown": 11
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:23:20.000+0100",
+                    "countdown": 14
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:26:40.000+0100",
+                    "countdown": 17
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:30:00.000+0100",
+                    "countdown": 21
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:33:20.000+0100",
+                    "countdown": 24
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:36:40.000+0100",
+                    "countdown": 27
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:40:00.000+0100",
+                    "countdown": 31
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:43:20.000+0100",
+                    "countdown": 34
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:46:40.000+0100",
+                    "countdown": 37
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:50:00.000+0100",
+                    "countdown": 41
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:53:20.000+0100",
+                    "countdown": 44
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T18:56:40.000+0100",
+                    "countdown": 47
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:00:00.000+0100",
+                    "countdown": 51
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:03:20.000+0100",
+                    "countdown": 54
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:06:40.000+0100",
+                    "countdown": 57
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:10:00.000+0100",
+                    "countdown": 61
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:13:20.000+0100",
+                    "countdown": 64
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                },
+                {
+                  "departureTime": {
+                    "timePlanned": "2022-02-04T19:16:40.000+0100",
+                    "countdown": 67
+                  },
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "Siebenhirten",
+                    "direction": "R",
+                    "richtungsId": "2",
+                    "barrierFree": true,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                }
+              ]
+            },
+            "type": "ptMetro",
+            "lineId": 306
+          }
+        ],
+        "attributes": {}
+      },
+      {
+        "locationStop": {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              0,
+              0
+            ]
+          },
+          "properties": {
+            "name": "60200334",
+            "title": "Floridsdorf",
+            "municipality": "Wien",
+            "municipalityId": 90001,
+            "type": "stop",
+            "coordName": "WGS84",
+            "gate": "1",
+            "attributes": {
+              "rbl": 4645
+            }
+          }
+        },
+        "lines": [
+          {
+            "name": "U6",
+            "towards": "NICHT EINSTEIGEN ! NO DEPARTURE PLATFORM",
+            "direction": "H",
+            "platform": "1",
+            "richtungsId": "1",
+            "barrierFree": true,
+            "realtimeSupported": true,
+            "trafficjam": false,
+            "departures": {
+              "departure": [
+                {
+                  "departureTime": {},
+                  "vehicle": {
+                    "name": "U6",
+                    "towards": "NICHT EINSTEIGEN ! NO DEPARTURE PLATFORM",
+                    "direction": "H",
+                    "richtungsId": "1",
+                    "barrierFree": false,
+                    "realtimeSupported": true,
+                    "trafficjam": false,
+                    "type": "ptMetro",
+                    "attributes": {},
+                    "linienId": 306
+                  }
+                }
+              ]
+            },
+            "type": "ptMetro",
+            "lineId": 306
+          }
+        ],
+        "attributes": {}
+      }
+    ]
+  },
+  "message": {
+    "value": "OK",
+    "messageCode": 1,
+    "serverTime": "2022-02-04T18:08:54.000+0100"
+  }
+}

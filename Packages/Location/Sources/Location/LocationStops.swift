@@ -1,11 +1,12 @@
 //
-//  File.swift
+//  LocationStops.swift
 //  
 //
 //  Created by Hadi G. on 18.05.23.
 //
 
 import CoreLocation
+import Foundation
 
 enum LocationStop {
 
@@ -14,8 +15,8 @@ enum LocationStop {
     }
 
     private static func getJSON() -> Data? {
-        guard let path = Bundle.module.url(forResource: "haltepunkte", withExtension: "json") else {
-            return nil
+        guard let path = Bundle.module.url(forResource: "Haltepunkte", withExtension: "json") else {
+            fatalError("Failed to locate resource")
         }
 
         do {
@@ -30,8 +31,7 @@ enum LocationStop {
 
     private static func parseJSON(from data: Data?) -> [Stop] {
         guard let data else {
-            print("💥 Boom: Input data is empty!")
-            return []
+            fatalError("Failed to load iput data")
         }
 
         do {

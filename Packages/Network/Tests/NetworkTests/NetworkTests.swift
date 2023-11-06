@@ -2,10 +2,15 @@ import XCTest
 @testable import Network
 
 final class NetworkTests: XCTestCase {
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(Network().text, "Hello, World!")
+    func testAPIService() async throws {
+        let mockResponse = Bundle.module.url(forResource: "MockResponse", withExtension: "json")
+
+        let mockString = try XCTUnwrap(mockResponse?.absoluteString)
+
+        print(mockString)
+        
+        let data: RealTime = try await APIService.getJSON(urlString: mockString)
+
+        print(data)
     }
 }

@@ -24,6 +24,7 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "NetworkTests",
-            dependencies: ["Network"]),
+            dependencies: ["Network"],
+            resources: [.process("Resources")]),
     ]
 )
